@@ -1,0 +1,17 @@
+[package]
+name = "elnemer-core"
+version = "1.0.0"
+edition = "2021"
+authors = ["Eng. Mahmoud Bek ElNemer <tt21913@gmail.com>"]
+description = "Sovereign High-Performance AI Swarm, Cryptographic Proofs & Arabic NLP Kernel"
+license = "MIT"
+repository = "https://github.com/ElNeMeR70/elnemer-core"
+homepage = "https://elnemer-ai.com"
+readme = "README.md"
+keywords = ["ai", "agents", "swarm", "arabic-nlp", "merkle"]
+categories = ["algorithms", "science", "text-processing"]
+
+[dependencies]
+sha2 = "0.10"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
